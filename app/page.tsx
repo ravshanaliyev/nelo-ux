@@ -1,4 +1,5 @@
 import { Navbar } from "./components/Navbar";
+import { Features } from "./components/features";
 import { Hero } from "./components/hero";
 
 export default function Home() {
@@ -6,6 +7,9 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <div className="px-[20px] lg:container lg:px-20 mx-auto">
+        <Features />
+      </div>
     </>
   );
 }
