@@ -1,4 +1,5 @@
 import { Navbar } from "./components/Navbar";
+import { Cta } from "./components/cta";
 import { Faq } from "./components/faq";
 import { Features } from "./components/features";
 import { Hero } from "./components/hero";
@@ -13,6 +14,7 @@ export default function Home() {
         <Features />
         <Faq />
         <Pricing />
+        <Cta />
       </div>
     </>
   );
